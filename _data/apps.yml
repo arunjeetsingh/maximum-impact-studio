@@ -1,0 +1,39 @@
+# Maximum Impact Studio — app catalog.
+#
+# Each entry renders (a) a card on the studio homepage grid and (b) a full
+# product page at /<slug>/. To launch a new app: copy a block, fill it in,
+# drop an icon at assets/img/<slug>-icon.png, and (optionally) create
+# <slug>/index.md using the "app" layout. That's it.
+#
+# Fields:
+#   slug         - URL segment + icon filename stem (lowercase, no spaces)
+#   name         - Display name
+#   tagline      - One-line pitch (card + page hero)
+#   status       - live | beta | coming-soon  (controls the badge)
+#   icon         - path under assets/img/
+#   platforms    - list shown on the card (e.g. iOS, Android)
+#   app_store    - full https URL or null
+#   testflight   - full https://testflight.apple.com/join/... URL or null
+#   play_store   - full Google Play URL or null
+#   github       - source repo URL or null
+#   privacy      - path to privacy page or null
+#   accent       - hex color for the page hero accent
+
+- slug: tokencounter
+  name: TokenCounter
+  tagline: Anthropic API spend at a glance.
+  status: live
+  icon: /assets/img/tokencounter-icon.png
+  platforms:
+    - iOS
+  app_store: https://apps.apple.com/app/id6772613833
+  testflight: https://testflight.apple.com/join/Jb7eKT8c
+  play_store: null
+  github: https://github.com/arunjeetsingh/token-tracker
+  privacy: /tokencounter/privacy/
+  accent: "#4f46e5"
+  features:
+    - "Live month-to-date cost across your whole Anthropic organization"
+    - "Today's intra-day cost estimate — closes the gap Anthropic's daily report leaves open"
+    - "Your admin key stays in the iOS Keychain — never sent anywhere except api.anthropic.com"
+    - "No analytics, no crash reporting, no account, no server"

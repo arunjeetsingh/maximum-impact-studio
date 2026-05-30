@@ -1,0 +1,42 @@
+---
+layout: base
+---
+{%- assign app = site.data.apps | where: "slug", page.slug | first -%}
+<section class="app-hero" style="--accent: {{ app.accent | default: '#4f46e5' }};">
+  {% if app.icon %}<img class="app-icon" src="{{ app.icon | relative_url }}" alt="{{ app.name }} icon" width="96" height="96">{% endif %}
+  <div class="app-hero-text">
+    <h1>{{ app.name }}</h1>
+    <p class="tagline">{{ app.tagline }}</p>
+    <p class="badges">
+      {% if app.status == 'live' %}<span class="badge badge-live">Live on the App Store</span>{% endif %}
+      {% if app.status == 'beta' %}<span class="badge badge-beta">Public Beta</span>{% endif %}
+      {% if app.status == 'coming-soon' %}<span class="badge badge-soon">Coming Soon</span>{% endif %}
+      {% for p in app.platforms %}<span class="badge badge-platform">{{ p }}</span>{% endfor %}
+    </p>
+  </div>
+</section>
+
+<section class="downloads">
+  {% if app.app_store %}<a class="btn btn-primary" href="{{ app.app_store }}" rel="noopener">Download on the App Store</a>{% endif %}
+  {% if app.testflight %}<a class="btn" href="{{ app.testflight }}" rel="noopener">Join the TestFlight beta</a>{% endif %}
+  {% if app.play_store %}<a class="btn" href="{{ app.play_store }}" rel="noopener">Get it on Google Play</a>{% endif %}
+</section>
+
+{% if app.features %}
+<section class="features">
+  <ul>
+    {% for f in app.features %}<li>{{ f }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if content != "" %}
+<section class="prose app-body">
+  {{ content }}
+</section>
+{% endif %}
+
+<section class="app-links">
+  {% if app.github %}<a href="{{ app.github }}" rel="noopener">Source on GitHub</a>{% endif %}
+  {% if app.privacy %} · <a href="{{ app.privacy | relative_url }}">Privacy Policy</a>{% endif %}
+</section>

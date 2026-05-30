@@ -1,0 +1,22 @@
+title: Maximum Impact Studio
+description: Small, privacy-respecting apps that do one thing well.
+url: https://maximumimpact.studio
+baseurl: ""
+
+# Custom layouts/includes; no external theme so we control everything.
+plugins:
+  - jekyll-seo-tag
+
+# Files that are repo bookkeeping, not site pages.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Studio-wide identity reused across pages.
+studio:
+  name: Maximum Impact Studio
+  email: hello@maximumimpact.studio
+  github: https://github.com/arunjeetsingh
+  copyright_year: 2026
