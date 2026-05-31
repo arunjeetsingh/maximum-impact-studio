@@ -6,13 +6,14 @@ permalink: /privacy/
 
 # Maximum Impact Studio — Privacy
 
-Maximum Impact Studio builds small, privacy-respecting apps. As a rule, our apps
-have **no backend and collect no personal data** — there is nowhere for us to
-collect it even if we wanted to.
+Maximum Impact Studio builds apps and games. Privacy practices vary by product —
+some of our apps have no backend and collect nothing, while others (for example
+ad-supported games) may include third-party SDKs that collect data under their
+own policies. So rather than make one blanket promise, **each product ships with
+its own privacy policy** describing exactly what it does:
 
-Each app ships with its own privacy policy describing exactly what it does:
-
-- [TokenCounter Privacy Policy](/tokencounter/privacy/)
+- [TokenCounter Privacy Policy](/tokencounter/privacy/) — no backend, no
+  analytics, no account; your data never leaves your device.
 
 This studio site itself is a static website hosted on GitHub Pages. It sets no
 cookies and runs no analytics or third-party trackers. Standard web-server
