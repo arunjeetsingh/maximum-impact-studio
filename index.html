@@ -2,23 +2,21 @@
 layout: base
 title: null
 ---
-<section class="studio-hero">
+<section class="blog-hero">
   <h1>Maximum Impact Studio</h1>
-  <p class="lead">Apps and games that spark joy.</p>
+  <p class="lead">Notes on building apps, games, and small machines that spark joy.</p>
 </section>
 
-<section id="apps" class="app-grid">
-  {% for app in site.data.apps %}
-  <a class="app-card" href="{{ '/' | append: app.slug | append: '/' | relative_url }}" style="--accent: {{ app.accent | default: '#4f46e5' }};">
-    {% if app.icon %}<img class="app-card-icon" src="{{ app.icon | relative_url }}" alt="{{ app.name }} icon" width="72" height="72">{% endif %}
-    <div class="app-card-body">
-      <h2>{{ app.name }}</h2>
-      <p>{{ app.tagline }}</p>
-      <span class="card-status status-{{ app.status }}">
-        {% if app.status == 'live' %}Live{% elsif app.status == 'beta' %}Beta{% else %}Coming soon{% endif %}
-        {% for p in app.platforms %}· {{ p }}{% endfor %}
-      </span>
-    </div>
-  </a>
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-list-item">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">
+      {% if post.author_url %}<a href="{{ post.author_url }}" rel="noopener">{{ post.author }}</a>{% else %}{{ post.author }}{% endif %}
+      · {{ post.date | date: "%b %-d, %Y" }}
+    </p>
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    <p><a class="read-more" href="{{ post.url | relative_url }}">Read more →</a></p>
+  </li>
   {% endfor %}
-</section>
+</ul>

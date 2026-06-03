@@ -1,0 +1,25 @@
+---
+layout: base
+title: Apps
+permalink: /apps/
+body_class: wide
+---
+<section class="studio-hero">
+  <h1>Apps &amp; Games</h1>
+  <p class="lead">Everything we've shipped (and a few things still in the oven).</p>
+</section>
+
+<section id="apps" class="app-grid">
+  {% for app in site.data.apps %}
+  <a class="app-card" href="{{ '/' | append: app.slug | append: '/' | relative_url }}">
+    {% if app.icon %}<img class="app-card-icon" src="{{ app.icon | relative_url }}" alt="{{ app.name }} icon" width="72" height="72">{% endif %}
+    <div class="app-card-body">
+      <h2>{{ app.name }}</h2>
+      <p>{{ app.tagline }}</p>
+      <span class="card-status status-{{ app.status }}">
+        {% if app.status == 'live' %}Live{% elsif app.status == 'beta' %}Beta{% else %}Coming soon{% endif %}{% for p in app.platforms %} &middot; {{ p }}{% endfor %}
+      </span>
+    </div>
+  </a>
+  {% endfor %}
+</section>
