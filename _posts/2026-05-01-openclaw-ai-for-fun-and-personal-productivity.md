@@ -36,3 +36,9 @@ Over the weekend:
 
 - I want to get Chintu to talk back to me in a Delhi Hinglish accent. ElevenLabs seems to have some TTS models that fit the mold.
 - I want to dig up one of my old Raspberry Pis and buy a mic hat to set Chintu up to listen and talk to me. I think someone else spoke about doing that already and it doesn't seem super complicated.
+
+<figure class="post-figure post-figure-pair">
+  <img src="{{ '/assets/img/posts/chintu-intro-1.jpg' | relative_url }}" alt="Chintu's WhatsApp introduction message listing its capabilities" loading="lazy">
+  <img src="{{ '/assets/img/posts/chintu-intro-2.jpg' | relative_url }}" alt="Chintu describing its personality and privacy boundaries" loading="lazy">
+  <figcaption>Chintu's self-introduction over WhatsApp — capabilities, personality, and boundaries.</figcaption>
+</figure>
