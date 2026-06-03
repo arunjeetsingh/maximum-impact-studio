@@ -101,6 +101,11 @@ The only twist in my variant is the sidecar shape rather than the wrapper shape.
 
 Most of the actual reliability of a system isn't in the happy path. It's in the small handful of edge cases where one component's reasonable assumption (`connect()` won't return `ENETDOWN` on a healthy network) collides with another's (Maintenance Sleep should be invisible to applications) collides with a third's (`KeepAlive=true` means what it says).
 
+<figure class="post-figure post-figure-wide">
+  <img src="{{ '/assets/img/posts/maintenance-sleep-diagram.jpg' | relative_url }}" alt="Before/after diagram: macOS Maintenance Sleep crashes the gateway (left) vs the caffeinate sidecar keeping the Mac awake while the gateway runs (right)" loading="lazy">
+  <figcaption>The broken state on the left, the fixed state on the right.</figcaption>
+</figure>
+
 Hopefully useful to anyone running OpenClaw on a Mac that isn't being used interactively.
 
 ## Giving back

@@ -104,6 +104,9 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 
 /* Post images / figures */
 .post-figure { margin: 2rem 0; text-align: center; }
+/* Wide landscape figures (diagrams) may break out past the reading column for legibility. */
+.post-figure-wide { width: 100vw; max-width: 1100px; margin-left: 50%; transform: translateX(-50%); }
+@media (max-width: 1100px) { .post-figure-wide { width: 100%; margin-left: 0; transform: none; } }
 .post-figure img {
   max-width: 100%; height: auto; border-radius: 18px;
   border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(74,77,60,.1);
