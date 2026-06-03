@@ -37,3 +37,23 @@
     - "Today's intra-day cost estimate — closes the gap Anthropic's daily report leaves open"
     - "Your admin key stays in the iOS Keychain — never sent anywhere except api.anthropic.com"
     - "No analytics, no crash reporting, no account, no server"
+
+- slug: chal-rickshaw
+  name: Chal Rickshaw!
+  tagline: Dodge cows, cops, and Delhi traffic in your auto rickshaw.
+  status: beta
+  icon: /assets/img/chal-rickshaw-icon.png
+  platforms:
+    - iOS
+    - Android
+  app_store: null
+  testflight: null
+  play_store: null
+  github: null
+  privacy: /chal-rickshaw/privacy/
+  accent: "#e0892f"
+  features:
+    - "Endless-runner action through chaotic Indian streets in a classic green-and-yellow auto"
+    - "Swerve around holy cows for a Gaumata Speed Award — or pay up when the thulla flags you down"
+    - "Three lanes, swipe to dodge, tap to jump, beat your high score"
+    - "Ad-free. No account, no tracking — just the ride"

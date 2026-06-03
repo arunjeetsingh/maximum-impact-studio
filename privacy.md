@@ -14,6 +14,8 @@ its own privacy policy** describing exactly what it does:
 
 - [TokenCounter Privacy Policy](/tokencounter/privacy/) — no backend, no
   analytics, no account; your data never leaves your device.
+- [Chal Rickshaw! Privacy Policy](/chal-rickshaw/privacy/) — single-player game;
+  no backend, no analytics, no account; only local game progress is stored.
 
 This studio site itself is a static website hosted on GitHub Pages. It sets no
 cookies and runs no analytics or third-party trackers. Standard web-server
