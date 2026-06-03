@@ -7,6 +7,19 @@ baseurl: ""
 plugins:
   - jekyll-seo-tag
 
+# Blog post permalinks: /YYYY/MM/slug/
+permalink: /:year/:month/:title/
+
+# Default author byline for posts.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Arun Singh
+      author_url: https://www.linkedin.com/in/arunjeetsingh/
+
 # Files that are repo bookkeeping, not site pages.
 exclude:
   - README.md
@@ -19,4 +32,5 @@ studio:
   name: Maximum Impact Studio
   email: hello@maximumimpact.studio
   github: https://github.com/arunjeetsingh
+  linkedin: https://www.linkedin.com/in/arunjeetsingh/
   copyright_year: 2026

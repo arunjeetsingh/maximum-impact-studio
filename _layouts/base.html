@@ -11,21 +11,24 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/jpeg" href="{{ '/assets/img/logo.jpg' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/logo.jpg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand-mark">◢◣</span>
+      <img class="brand-logo" src="{{ '/assets/img/logo.jpg' | relative_url }}" alt="{{ site.studio.name }} logo">
       <span class="brand-name">{{ site.studio.name }}</span>
     </a>
     <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}#apps">Apps</a>
+      <a href="{{ '/' | relative_url }}">Blog</a>
+      <a href="{{ '/apps/' | relative_url }}">Apps</a>
       <a href="{{ site.studio.github }}" rel="noopener">GitHub</a>
     </nav>
   </header>
 
-  <main class="site-main">
+  <main class="site-main{% if page.body_class %} {{ page.body_class }}{% endif %}">
     {{ content }}
   </main>
 
