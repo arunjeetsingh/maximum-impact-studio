@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meta Goodbye"
-date: 2026-06-05
+date: 2026-06-03
 author: Arun Singh
 description: "My last day at Meta was two weeks ago. A look back at four years building Ray-Ban Meta glasses, what I've been building since, and what I'm itching to do next."
 ---
