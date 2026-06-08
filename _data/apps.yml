@@ -47,7 +47,7 @@
     - iOS
     - Android
   app_store: null
-  testflight: null
+  testflight: https://testflight.apple.com/join/Zgn6udB4
   play_store: null
   github: null
   privacy: /chal-rickshaw/privacy/
