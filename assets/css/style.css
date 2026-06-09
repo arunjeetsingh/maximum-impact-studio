@@ -122,6 +122,17 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 @media (max-width: 520px) {
   .post-figure-pair img { max-width: 100%; }
 }
+/* Portrait stills (game concept art) — cap height so tall frames don't dominate. */
+.post-figure-portrait img { max-height: 460px; width: auto; }
+/* Self-hosted portrait concept videos. */
+.post-video { margin: 2rem 0; text-align: center; }
+.post-video video {
+  max-width: 100%; max-height: 600px; height: auto; border-radius: 18px;
+  border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(74,77,60,.1);
+}
+.post-video figcaption {
+  font-family: var(--sans); font-size: .85rem; color: var(--muted); margin-top: .75rem;
+}
 
 /* ---------- App grid (now on /apps/) ---------- */
 .studio-hero { padding: 2.5rem 0 1rem; }
