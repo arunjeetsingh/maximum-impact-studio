@@ -1,0 +1,33 @@
+---
+layout: base
+title: About
+description: About Arunjeet Singh, founder of Maximum Impact Studio.
+permalink: /about/
+body_class: about-page
+---
+<section class="about-hero">
+  <h1>About</h1>
+</section>
+
+<div class="profile">
+  <img class="profile-photo"
+       src="{{ '/assets/img/arun-profile.jpg' | relative_url }}"
+       alt="Arunjeet Singh" width="160" height="160">
+  <div class="profile-body">
+    <h2 class="profile-name">Arunjeet Singh <span class="profile-aka">(Arun)</span></h2>
+    <p class="profile-role">Founder, Maximum Impact Studio</p>
+    <p class="profile-bio">
+      Arun is the founder of Maximum Impact Studio. He has worked as a product
+      manager and engineer at Meta, Amazon, Salesforce, and Microsoft. He loves
+      technology and is passionate about making sure everyone can access the best
+      of it — so it doesn't stay cloistered behind closed doors. These days he's
+      focused on using AI agents to build innovative software and games, like the
+      recently launched <a href="{{ '/apps/' | relative_url }}">TokenCounter</a>.
+    </p>
+    <ul class="profile-links">
+      <li><a href="{{ site.studio.linkedin }}" rel="noopener">LinkedIn</a></li>
+      <li><a href="{{ site.studio.github }}" rel="noopener">GitHub</a></li>
+      <li><a href="{{ site.studio.twitter }}" rel="noopener">X {{ site.studio.twitter_handle }}</a></li>
+    </ul>
+  </div>
+</div>
