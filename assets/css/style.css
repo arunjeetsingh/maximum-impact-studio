@@ -227,3 +227,55 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   .post-body { font-size: 1.12rem; }
   .app-hero { flex-direction: column; text-align: center; align-items: center; }
 }
+
+/* ---------- About / profile page ---------- */
+.about-page .site-main { max-width: var(--max); }
+.about-hero h1 {
+  font-family: var(--serif);
+  font-size: 2rem;
+  letter-spacing: -.5px;
+  margin: 1rem 0 1.5rem;
+}
+.profile {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+  border: 3px solid var(--border);
+  box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+.profile-body { flex: 1 1 320px; min-width: 280px; }
+.profile-name {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  margin: .2rem 0 .1rem;
+}
+.profile-aka { color: var(--muted); font-weight: 400; font-size: 1.2rem; }
+.profile-role {
+  color: var(--accent);
+  font-weight: 600;
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+.profile-bio { margin: 0 0 1.25rem; }
+.profile-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem 1.25rem;
+}
+.profile-links a { font-weight: 600; }
+
+@media (max-width: 600px) {
+  .profile { justify-content: center; text-align: center; }
+  .profile-links { justify-content: center; }
+}
