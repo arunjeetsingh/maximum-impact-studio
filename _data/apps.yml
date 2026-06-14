@@ -14,7 +14,9 @@
 #   platforms    - list shown on the card (e.g. iOS, Android)
 #   app_store    - full https URL or null
 #   testflight   - full https://testflight.apple.com/join/... URL or null
-#   play_store   - full Google Play URL or null
+#   play_store   - full public Google Play store URL or null
+#   play_beta    - Google Play open-testing opt-in URL
+#                  (https://play.google.com/apps/testing/<package>) or null
 #   github       - source repo URL or null
 #   privacy      - path to privacy page or null
 #   accent       - hex color for the page hero accent
@@ -49,6 +51,7 @@
   app_store: null
   testflight: https://testflight.apple.com/join/Zgn6udB4
   play_store: null
+  play_beta: https://play.google.com/apps/testing/studio.maximumimpact.chalrickshaw
   github: null
   privacy: /chal-rickshaw/privacy/
   accent: "#e0892f"
