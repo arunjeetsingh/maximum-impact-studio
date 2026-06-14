@@ -20,8 +20,6 @@ the run.
 Built by Maximum Impact Studio. Currently in beta testing on iOS
 with Android on the way.
 
-**Ad-free. No account. No tracking.**
-
 ## Concept videos
 
 Before a single line of game code, we built the world as a sizzle reel —
