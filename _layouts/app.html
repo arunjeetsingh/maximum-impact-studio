@@ -20,7 +20,8 @@ layout: base
   {% if app.app_store %}<a class="btn btn-primary" href="{{ app.app_store }}" rel="noopener">Download on the App Store</a>{% endif %}
   {% if app.testflight %}<a class="btn" href="{{ app.testflight }}" rel="noopener">Join the iOS beta</a>{% endif %}
   {% if app.play_store %}<a class="btn" href="{{ app.play_store }}" rel="noopener">Get it on Google Play</a>{% endif %}
-  {%- unless app.app_store or app.testflight or app.play_store -%}
+  {% if app.play_beta %}<a class="btn" href="{{ app.play_beta }}" rel="noopener">Join the Android beta</a>{% endif %}
+  {%- unless app.app_store or app.testflight or app.play_store or app.play_beta -%}
     {% if app.status == 'beta' %}<span class="btn btn-disabled" aria-disabled="true">iOS beta — coming soon</span>{% endif %}
   {%- endunless -%}
 </section>
