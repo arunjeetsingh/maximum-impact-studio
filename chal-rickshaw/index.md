@@ -21,3 +21,29 @@ Built by Maximum Impact Studio. Currently in beta testing on iOS
 with Android on the way.
 
 **Ad-free. No account. No tracking.**
+
+## Concept videos
+
+Before a single line of game code, we built the world as a sizzle reel —
+generating the art with Nano Banana Pro and animating it with Veo. Here are the
+two concept cuts that set the look and feel.
+
+<div class="video-gallery">
+  <figure class="post-video">
+    <video controls playsinline preload="metadata" poster="{{ '/assets/img/posts/chal-rickshaw-concept-v1-poster.jpg' | relative_url }}">
+      <source src="{{ '/assets/video/posts/chal-rickshaw-concept-v1.mp4' | relative_url }}" type="video/mp4">
+      Your browser doesn't support embedded video. <a href="{{ '/assets/video/posts/chal-rickshaw-concept-v1.mp4' | relative_url }}">Download the clip</a>.
+    </video>
+    <figcaption>Concept video 1 — the first reel with all the interactions stitched together.</figcaption>
+  </figure>
+  <figure class="post-video">
+    <video controls playsinline preload="metadata" poster="{{ '/assets/img/posts/chal-rickshaw-concept-v2-poster.jpg' | relative_url }}">
+      <source src="{{ '/assets/video/posts/chal-rickshaw-concept-v2.mp4' | relative_url }}" type="video/mp4">
+      Your browser doesn't support embedded video. <a href="{{ '/assets/video/posts/chal-rickshaw-concept-v2.mp4' | relative_url }}">Download the clip</a>.
+    </video>
+    <figcaption>Concept video 2 — kinder to gau mata, more personality for the thulla.</figcaption>
+  </figure>
+</div>
+
+Want the full story of how these came together? Read the
+[behind-the-scenes write-up]({% post_url 2026-06-09-using-ai-to-conceptualize-chal-rickshaw %}).

@@ -133,6 +133,11 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .post-video figcaption {
   font-family: var(--sans); font-size: .85rem; color: var(--muted); margin-top: .75rem;
 }
+/* Side-by-side concept videos on the product page; stacks on narrow screens. */
+.video-gallery {
+  display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; align-items: flex-start;
+}
+.video-gallery .post-video { flex: 1 1 280px; max-width: 360px; margin: 1rem 0; }
 
 /* ---------- App grid (now on /apps/) ---------- */
 .studio-hero { padding: 2.5rem 0 1rem; }
