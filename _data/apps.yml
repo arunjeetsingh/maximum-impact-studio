@@ -28,17 +28,21 @@
   icon: /assets/img/tokencounter-icon.png
   platforms:
     - iOS
+    - Android
   app_store: https://apps.apple.com/app/id6772613833
   testflight: https://testflight.apple.com/join/Jb7eKT8c
-  play_store: null
+  play_store: https://play.google.com/store/apps/details?id=studio.maximumimpact.tokencounter
   github: https://github.com/arunjeetsingh/token-tracker
   privacy: /tokencounter/privacy/
   accent: "#4f46e5"
   features:
     - "Live month-to-date cost across your whole Anthropic organization"
     - "Today's intra-day cost estimate — closes the gap Anthropic's daily report leaves open"
-    - "Your admin key stays in the iOS Keychain — never sent anywhere except api.anthropic.com"
-    - "No analytics, no crash reporting, no account, no server"
+    - "Set a monthly spend limit and watch the dashboard gauge fill — orange at 80%, red when you're over"
+    - "Opt-in alert the first time you cross 90% of your limit in a month"
+    - "Per-model breakdown so you can see what's actually costing you"
+    - "Your admin key stays in the device's secure storage — never sent anywhere except api.anthropic.com"
+    - "No analytics, no crash reporting, no account, no server — and fully open source"
 
 - slug: chal-rickshaw
   name: Chal Rickshaw!
