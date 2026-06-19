@@ -10,7 +10,7 @@ plugins:
 # Google Analytics 4. Only fires when JEKYLL_ENV=production (i.e. on the
 # GitHub Pages build), so local `jekyll serve` does not pollute stats.
 # Fill in the GA4 Measurement ID below once Arun provides it.
-google_analytics: "G-XXXXXXXXXX"
+google_analytics: "G-JLZHTEFMQ3"
 
 # Blog post permalinks: /YYYY/MM/slug/
 permalink: /:year/:month/:title/
