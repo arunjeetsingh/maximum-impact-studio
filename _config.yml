@@ -15,6 +15,9 @@ google_analytics: "G-JLZHTEFMQ3"
 # Blog post permalinks: /YYYY/MM/slug/
 permalink: /:year/:month/:title/
 
+# Build posts whose date is in the future (we date announcements ahead of time).
+future: true
+
 # Default author byline for posts.
 defaults:
   - scope:
