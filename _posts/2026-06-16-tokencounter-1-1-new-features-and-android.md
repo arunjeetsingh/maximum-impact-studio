@@ -4,6 +4,7 @@ title: "TokenCounter: New features, and now on Android too!"
 date: 2026-06-16
 description: "TokenCounter 1.1 is here — more accurate spend tracking, a monthly spend-limit gauge with a 90% alert, and the app is now live on Google Play alongside iOS. It's also fully open source."
 image: /assets/img/posts/tokencounter-1-1-cover.png
+excerpt_separator: <!--more-->
 ---
 
 <figure class="post-figure">
@@ -11,6 +12,7 @@ image: /assets/img/posts/tokencounter-1-1-cover.png
 </figure>
 
 I launched TokenCounter a couple of weeks ago, a small, private app that lets you track your Anthropic token spend as you go on your agentic journey. Version 1.1 just dropped with more accurate spend tracking and the ability to set a monthly spend limit (with a heads-up alert before you blow past it). And the big one: **TokenCounter is now on the Google Play Store too.** It's also fully open source.
+<!--more-->
 
 - 📱 iOS App Store: [https://apps.apple.com/app/id6772613833](https://apps.apple.com/app/id6772613833)
 - 🤖 Google Play: [https://play.google.com/store/apps/details?id=studio.maximumimpact.tokencounter](https://play.google.com/store/apps/details?id=studio.maximumimpact.tokencounter)

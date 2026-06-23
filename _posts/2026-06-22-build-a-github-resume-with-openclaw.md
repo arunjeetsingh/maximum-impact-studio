@@ -5,6 +5,7 @@ date: 2026-06-22
 author: Arun Singh
 description: "Everyone says they can vibe code now. Far fewer can point at a public GitHub repo and say I built and shipped this. Here's how to stand up an OpenClaw agent and turn that claim into living evidence."
 image: /assets/img/posts/build-github-resume-cover.png
+excerpt_separator: <!--more-->
 ---
 
 <figure class="post-figure">
@@ -12,6 +13,7 @@ image: /assets/img/posts/build-github-resume-cover.png
 </figure>
 
 TLDR: Want proof you can build using an agent? Stand up an OpenClaw agent on a cheap machine, give it a Claude account and a personality, talk to it from Telegram or WhatsApp, and have it build a real project end-to-end on a public GitHub repo with source control, Continuous Integration (CI), and Continuous Deployment (CD) included. That public repo is now living evidence that you can ship. Here's exactly how to set it up.
+<!--more-->
 
 ## Why do this?
 
