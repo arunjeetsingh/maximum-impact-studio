@@ -4,6 +4,7 @@ title: "Chal Rickshaw: Android Public Beta"
 date: 2026-06-23
 description: "Chal Rickshaw is now live as a public beta on Android. Here's what landed this week — a multi-round career, a persistent rupee wallet, a punchier crash sequence, finger-down steering, and a festive Diwali night round."
 image: /assets/img/posts/chal-rickshaw-android-beta-cover.png
+excerpt_separator: <!--more-->
 ---
 
 <figure class="post-figure">
@@ -11,6 +12,7 @@ image: /assets/img/posts/chal-rickshaw-android-beta-cover.png
 </figure>
 
 TLDR: Chal Rickshaw is now live as a **public beta on Android** — anyone can jump in. Grab it on Google Play (link below) and tell me what you think. Since last week the game grew up a lot: a punchy new crash/loss sequence, a full multi-round career, a persistent ₹ wallet so your kamai carries across rounds, smoother "keep your finger down" steering, and a festive Diwali night round. It's all on Android and iOS — go play.
+<!--more-->
 
 ## Get the beta
 
