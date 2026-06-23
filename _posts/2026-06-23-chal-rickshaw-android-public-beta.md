@@ -4,15 +4,18 @@ title: "Chal Rickshaw: Android Public Beta"
 date: 2026-06-23
 description: "Chal Rickshaw is now live as a public beta on Android. Here's what landed this week — a multi-round career, a persistent rupee wallet, a punchier crash sequence, finger-down steering, and a festive Diwali night round."
 image: /assets/img/posts/chal-rickshaw-android-beta-cover.png
-excerpt_separator: <!--more-->
+excerpt: "Chal Rickshaw is now live as a public beta on Android — anyone can jump in. Since last week the game grew up a lot: a punchy new crash/loss sequence, a full multi-round career, a persistent rupee wallet so your kamai carries across rounds, smoother steering, and a festive Diwali night round."
 ---
 
-<figure class="post-figure">
-  <img src="{{ '/assets/img/posts/chal-rickshaw-android-beta-cover.png' | relative_url }}" alt="Chal Rickshaw — now in Android public beta, on Google Play and iOS TestFlight" loading="lazy">
+<figure class="post-video">
+  <video controls playsinline preload="metadata" poster="{{ '/assets/img/posts/chal-rickshaw-android-beta-montage-poster.jpg' | relative_url }}">
+    <source src="{{ '/assets/video/posts/chal-rickshaw-android-beta-montage.mp4' | relative_url }}" type="video/mp4">
+    Your browser doesn't support embedded video. <a href="{{ '/assets/video/posts/chal-rickshaw-android-beta-montage.mp4' | relative_url }}">Download the clip</a>.
+  </video>
+  <figcaption>This week's new features in 30 seconds — multiple rounds, kamai, the new crash sequence, and the Diwali night round.</figcaption>
 </figure>
 
 TLDR: Chal Rickshaw is now live as a **public beta on Android** — anyone can jump in. Grab it on Google Play (link below) and tell me what you think. Since last week the game grew up a lot: a punchy new crash/loss sequence, a full multi-round career, a persistent ₹ wallet so your kamai carries across rounds, smoother "keep your finger down" steering, and a festive Diwali night round. It's all on Android and iOS — go play.
-<!--more-->
 
 ## Get the beta
 
