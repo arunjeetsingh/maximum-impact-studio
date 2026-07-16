@@ -6,101 +6,157 @@ permalink: /chal-rickshaw/privacy/
 
 # Chal Rickshaw! — Privacy Policy
 
-_Last updated: 2026-06-11_
+_Last updated: 2026-07-15_
 
 Chal Rickshaw! is a single-player arcade game from Maximum Impact Studio. This
-policy explains what data the game and the third-party services it uses may
-collect, and how that data is handled.
+policy explains what data the game and the services it uses collect, and how
+that data is handled.
 
 ## TL;DR
 
-- **No account.** There's nothing to sign up for or log in to, and we never ask
-  for your name, email, phone number, or contacts.
-- **No game backend of our own.** We don't run a server that stores your data.
-- The game uses a small number of standard third-party services for **crash
-  reporting, anonymous analytics, and advertising**. These collect limited,
-  largely anonymous technical and usage data to keep the game stable, understand
-  how it's played, and show ads. Details below.
-- We do **not** sell your personal data.
+- You can play without creating an account. **Linking an email address is
+  optional** and only needed for real-money purchases, so your purchases and
+  in-game currency survive reinstalls and refunds can be handled correctly.
+- We run a small **game backend** that stores your in-game wallet (currency,
+  items, purchases) so it isn't lost with your device. It's keyed to a random
+  player ID — plus your email only if you link one.
+- **Payments are processed entirely by Apple or Google.** We never see your
+  card or bank details.
+- The app embeds two third-party **SDKs**: **anonymous gameplay analytics**
+  (GameAnalytics) and **advertising** (Google AdMob). Separately, **Supabase**
+  hosts our backend and **Apple/Google** process payments and their own store
+  data — each as described in the sections below. In-app purchase of "Remove
+  Ads" turns off forced ads; optional rewarded ads remain your choice.
+- Where a consent form is required (EEA/UK), **neither ads nor analytics run
+  before you've answered it**.
+- We do **not** sell your personal data, we don't use it for cross-app
+  tracking, and we don't "share" it for cross-context behavioral advertising
+  (as California law defines those terms).
 
-## What data is collected, and by whom
+## Data we collect and why
 
-Chal Rickshaw! itself stores your **game progress** (high score, settings)
-**locally on your device**. That local data is not sent to us.
+### Game account & wallet (our backend)
 
-To keep the game running well and free to play, the app integrates standard
-third-party SDKs. Depending on the build and your settings, these may collect:
+The game creates an anonymous player account (a random ID) to store your
+**in-game wallet**: kamai (in-game ₹), items, round progress, purchase
+entitlements (like Remove Ads), and a record of real-money purchases
+(store transaction IDs — never payment details). This keeps your balance safe
+across devices and reinstalls and lets refunds be reversed correctly.
 
-| Purpose | Data typically collected | Who collects / processes it |
-| --- | --- | --- |
-| **Crash reporting** | Crash logs, device model, OS version, app version, and diagnostic state at the time of a crash | A crash-reporting provider (e.g. Firebase Crashlytics / Sentry) |
-| **Analytics** | Anonymous/aggregated usage events (e.g. rounds played, screens viewed, session length), approximate region, device type, OS version | An analytics provider (e.g. Google/Firebase Analytics) |
-| **Advertising** | Advertising identifier, IP address, approximate (coarse) location, device/ad interaction data used to select and measure ads | The ad network and its partners (e.g. Google AdMob) |
+If you make real-money purchases, we ask you to **link an email address**.
+We store that email and use it solely for sign-in (a one-time code is emailed
+to you) and to attach your purchases to a durable account. We don't send
+marketing email. Our backend is hosted on Supabase infrastructure (region:
+Mumbai, India); all traffic is encrypted in transit (HTTPS/TLS).
 
-This data is generally **not used to personally identify you**. We use it in
-aggregate to fix bugs, improve the game, and support the free-to-play model
-through ads. We do not combine it to build a personal profile of you, and we do
-not sell it.
+### Purchases (Apple App Store / Google Play)
 
-Each provider processes the data it collects under **its own privacy policy**.
-Where required, you can opt out of personalized advertising via your device
-settings (see "Your choices" below).
+All payments are handled by **Apple** or **Google** under their own terms and
+privacy policies. We receive only the store's transaction identifiers and
+purchase state, which we verify directly with Apple/Google servers before
+crediting your wallet. If a purchase is refunded, the corresponding in-game
+credit or entitlement is removed. Kamai (in-game ₹) is a **virtual in-game
+currency with no real-world value** — it cannot be cashed out, transferred, or
+redeemed for real money.
 
-## Advertising
+### Analytics (GameAnalytics)
 
-Chal Rickshaw! may show ads (for example, banner or rewarded-video ads) provided
-by a third-party ad network such as Google AdMob. Ad networks may use your
-device's advertising identifier and related data to select and measure ads. You
-can limit ad personalization in your device settings:
+We collect **anonymous gameplay events** (rounds played, session activity,
+in-game economy events, ad views) tied to a **random install identifier**
+generated by the app — not your advertising ID and not your identity. This
+helps us balance the game and fix problems. GameAnalytics processes this on our
+behalf under [its privacy policy](https://gameanalytics.com/privacy/).
 
-- **Android:** Settings → Privacy → Ads (reset or delete your advertising ID,
-  or opt out of ad personalization).
-- **iOS:** Settings → Privacy & Security → Tracking / Apple Advertising.
+Analytics starts only after the **same consent flow as ads resolves**: where a
+consent form is required (EEA/UK), gameplay events are **held on the device
+until you have answered it** and are never sent on a timeout or error. We
+process these anonymous, aggregated events on the basis of our **legitimate
+interest** in keeping the game working and balanced; they carry a random app
+identifier, never your advertising ID. If you'd like analytics tied to your
+install identifier deleted, contact us.
 
-See the ad network's policy (for AdMob, part of
-[Google's Privacy Policy](https://policies.google.com/privacy) and
-[how Google uses information from sites/apps that use its services](https://policies.google.com/technologies/partner-sites)).
+### Advertising (Google AdMob)
 
-## App store platforms
+The game shows interstitial ads and optional **rewarded ads** (watch an ad to
+double your fare — always your choice). The ad SDK may collect your device's
+advertising identifier, IP address, coarse region, and ad-interaction data to
+serve and measure ads. Where required (e.g. the EEA/UK), the game shows a
+**consent form** before ads are served, and ads are not loaded until consent is
+resolved. We do not use Apple's cross-app tracking (no ATT prompt is shown; we
+don't track you across other companies' apps).
 
-If you installed the app through **Google Play** or Apple **TestFlight**/App
-Store, those platforms collect their own diagnostic and installation data under
-**their** policies — see
-[Google Play's Privacy Policy](https://policies.google.com/privacy) and
-[Apple's Privacy Policy](https://www.apple.com/legal/privacy/). That data goes
-to Google/Apple, not to us.
+Buying **Remove Ads** permanently disables forced ads; rewarded ads remain
+available but only ever play when you tap them.
 
-## Children's privacy
+See [Google's Privacy Policy](https://policies.google.com/privacy) and
+[how Google uses information from sites/apps that use its services](https://policies.google.com/technologies/partner-sites).
 
-Chal Rickshaw! is not directed at children under 13. Because the game can serve
-ads and use analytics, it is intended for a general (teen and older) audience.
-We do not knowingly collect personal information from children. If you believe a
-child has provided personal information, contact us and we will address it.
+### Diagnostics & logs
 
-## Your choices
+The game keeps a small diagnostic log **on your device only**. It is sent to us
+only if you explicitly share it (e.g. via the in-app share option when
+reporting a problem). Crash reports may reach us in aggregate through Apple
+(App Store/TestFlight) or Google Play if **you** have opted into sharing them
+with those platforms — under their policies, not ours.
 
-- **Limit ad tracking / reset advertising ID** in your device settings (see
-  "Advertising" above).
-- **Uninstall** the app to stop all further data collection by the app and its
-  SDKs.
-- **Contact us** with any privacy request at the address below.
+## What we do NOT collect
+
+- No name, phone number, contacts, photos, or precise location.
+- No payment card or bank details (Apple/Google handle all payments).
+- No cross-app tracking profile; we never request Apple's ATT permission.
+
+## Your choices & rights
+
+- **Play without an account** — everything except real-money purchases works
+  with no email linked.
+- **Ad personalization** — limit or reset your advertising ID in device
+  settings (Android: Settings → Privacy → Ads; iOS: Settings → Privacy &
+  Security → Apple Advertising). EEA/UK users can revisit their consent choice
+  via the in-game consent form.
+- **Delete your account & data** — email us at the address below. If you've
+  linked an email, write from that address (so we can verify it's you) and we
+  will delete your account, wallet, and purchase records (except records we
+  must keep for legal/accounting reasons, e.g. of refunds). If you have **not**
+  linked an email, the wallet on our server is identified only by a random ID
+  and holds **no personal information** (just game values); contact us and we
+  will work with you to locate and delete it, or simply uninstall — an unlinked
+  wallet cannot be connected back to you by us or anyone else.
+- **Uninstall** — stops all further collection by the app; your local save is
+  removed with the app.
 
 ## Data retention & security
 
-Third-party providers retain the data they collect according to their own
-retention policies. Crash and analytics data is used to maintain and improve the
-game and is not kept longer than needed for those purposes by us (we generally
-only ever see it in aggregate). All transmission to these services uses standard
-encrypted (HTTPS/TLS) connections.
+Wallet and purchase records are kept while your account exists; after a
+deletion request or refund, purchase records are retained only as required for
+accounting, tax, and fraud prevention (typically up to 8 years under applicable
+law) and then removed. Analytics data is retained per GameAnalytics' retention
+policy and only ever used by us in aggregate. All transmission uses encrypted
+(HTTPS/TLS) connections; purchase verification is performed server-to-server
+with Apple and Google.
+
+## Children's privacy
+
+Chal Rickshaw! is not directed at children under 13. Because the game serves
+ads and offers in-app purchases, it is intended for a general (teen and older)
+audience. We do not knowingly collect personal information from children. If
+you believe a child has provided personal information, contact us and we will
+delete it.
+
+## App store platforms
+
+If you installed the app through **Google Play** or the Apple **App
+Store**/TestFlight, those platforms collect their own diagnostic and
+installation data under **their** policies — see
+[Google Play's Privacy Policy](https://policies.google.com/privacy) and
+[Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
 ## Changes to this policy
 
 If our data practices change, we will update this page and the "Last updated"
-date above and describe what changed. Material changes (for example, adding a new
-category of data collection) will be reflected here before the corresponding app
-update ships.
+date above. Material changes (for example, a new category of data collection)
+will be reflected here before the corresponding app update ships.
 
 ## Contact
 
-Questions about this policy? Email
+Questions or privacy requests (including account deletion)? Email
 [hello@maximumimpact.studio](mailto:hello@maximumimpact.studio).
