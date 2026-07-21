@@ -14,8 +14,9 @@ excerpt: "For the past 2 weeks I've been juggling monetization for Chal Rickshaw
 
 TLDR: For the past 2 weeks, I've been juggling work to monetize Chal Rickshaw and job interviews. A clever idea from one of my young beta testers gave birth to a new marketplace where players can spend the in-game rupees they earn to buy boosts they can use during gameplay. When I realized it might take a while to earn enough money to buy those boosts, that gave me the idea to use reward ads (double your fare by watching an ad) to help players earn faster. Eventually this turned into rupee packs players can buy with real money, interstitial ads, and another booster idea. Along the way, I also ended up building a basic player account backend (fully optional!) to store wallet data so users can keep their earnings across phones and installs. Read on to understand the exciting monetization journey of Chal Rickshaw!
 
-- 🍎 **iOS public beta (TestFlight):** [https://testflight.apple.com/join/Zgn6udB4](https://testflight.apple.com/join/Zgn6udB4)
-- 🤖 **Android public beta:** [Google Play opt-in](https://play.google.com/apps/testing/studio.maximumimpact.chalrickshaw)
+- 🎮 **Try the game (public beta):** [maximumimpact.studio/chal-rickshaw](https://maximumimpact.studio/chal-rickshaw/)
+- 🍎 **iOS (TestFlight):** [https://testflight.apple.com/join/Zgn6udB4](https://testflight.apple.com/join/Zgn6udB4)
+- 🤖 **Android:** [Google Play opt-in](https://play.google.com/apps/testing/studio.maximumimpact.chalrickshaw)
 
 ## 🛒 A place to spend rupees
 
