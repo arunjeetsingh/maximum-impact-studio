@@ -47,15 +47,15 @@
 - slug: chal-rickshaw
   name: Chal Rickshaw!
   tagline: Dodge cows, cops, and Delhi traffic in your auto rickshaw.
-  status: beta
+  status: live
   icon: /assets/img/chal-rickshaw-icon.png
   platforms:
     - iOS
     - Android
-  app_store: null
+  app_store: null   # set on App Store approval — currently in review
   testflight: https://testflight.apple.com/join/Zgn6udB4
-  play_store: null
-  play_beta: https://play.google.com/apps/testing/studio.maximumimpact.chalrickshaw
+  play_store: https://play.google.com/store/apps/details?id=studio.maximumimpact.chalrickshaw
+  play_beta: null   # superseded by the production listing 2026-08-04
   github: null
   privacy: /chal-rickshaw/privacy/
   accent: "#e0892f"
