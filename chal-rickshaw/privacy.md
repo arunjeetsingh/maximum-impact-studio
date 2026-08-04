@@ -6,7 +6,7 @@ permalink: /chal-rickshaw/privacy/
 
 # Chal Rickshaw! — Privacy Policy
 
-_Last updated: 2026-07-15_
+_Last updated: 2026-08-04_
 
 Chal Rickshaw! is a single-player arcade game from Maximum Impact Studio. This
 policy explains what data the game and the services it uses collect, and how
@@ -14,9 +14,9 @@ that data is handled.
 
 ## TL;DR
 
-- You can play without creating an account. **Linking an email address is
-  optional** and only needed for real-money purchases, so your purchases and
-  in-game currency survive reinstalls and refunds can be handled correctly.
+- You can play — and make purchases — without creating an account.
+  **Linking an email address is entirely optional**: it lets your purchases and
+  in-game currency follow you to another device or reinstall.
 - We run a small **game backend** that stores your in-game wallet (currency,
   items, purchases) so it isn't lost with your device. It's keyed to a random
   player ID — plus your email only if you link one.
@@ -43,10 +43,12 @@ entitlements (like Remove Ads), and a record of real-money purchases
 (store transaction IDs — never payment details). This keeps your balance safe
 across devices and reinstalls and lets refunds be reversed correctly.
 
-If you make real-money purchases, we ask you to **link an email address**.
-We store that email and use it solely for sign-in (a one-time code is emailed
-to you) and to attach your purchases to a durable account. We don't send
-marketing email. Our backend is hosted on Supabase infrastructure (region:
+Real-money purchases **do not require an account or sign-in of any kind** —
+they credit the anonymous wallet on your device. You can optionally **link an
+email address** afterwards so your purchases and balance survive a lost phone
+or reinstall. If you link one, we store that email and use it solely for
+sign-in (a one-time code is emailed to you) and to attach your purchases to a
+durable account. We don't send marketing email. Our backend is hosted on Supabase infrastructure (region:
 Mumbai, India); all traffic is encrypted in transit (HTTPS/TLS).
 
 ### Purchases (Apple App Store / Google Play)
@@ -107,14 +109,17 @@ with those platforms — under their policies, not ours.
 
 ## Your choices & rights
 
-- **Play without an account** — everything except real-money purchases works
-  with no email linked.
+- **Play without an account** — everything, including real-money purchases,
+  works with no email linked.
 - **Ad personalization** — limit or reset your advertising ID in device
   settings (Android: Settings → Privacy → Ads; iOS: Settings → Privacy &
   Security → Apple Advertising). EEA/UK users can revisit their consent choice
   via the in-game consent form.
-- **Delete your account & data** — email us at the address below. If you've
-  linked an email, write from that address (so we can verify it's you) and we
+- **Delete your account & data** — if you've linked an email, delete your
+  account directly **in the app**: ACCOUNT → sign in → "Delete account" →
+  DELETE FOREVER. This permanently removes your account, wallet, and purchase
+  records from our servers immediately. You can also email us at the address
+  below instead; if you do, write from your linked address (so we can verify it's you) and we
   will delete your account, wallet, and purchase records (except records we
   must keep for legal/accounting reasons, e.g. of refunds). If you have **not**
   linked an email, the wallet on our server is identified only by a random ID

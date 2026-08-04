@@ -10,7 +10,19 @@ You can request deletion of your Chal Rickshaw! account and the data associated
 with it at any time. Deletion is handled by Maximum Impact Studio (the app's
 developer) and is free.
 
-## How to request deletion
+## The fastest way: delete in the app
+
+If you linked an email address, you can delete your account directly in the
+game — no email needed, effective immediately:
+
+1. Title screen → **ACCOUNT** → sign in if you aren't already
+2. Tap **Delete account**
+3. Review what will be removed, then tap **DELETE FOREVER**
+
+The account, wallet, and purchase records are permanently deleted from our
+servers right away.
+
+## Or request deletion by email
 
 Email **[hello@maximumimpact.studio](mailto:hello@maximumimpact.studio?subject=Delete%20my%20Chal%20Rickshaw%20account)**
 with the subject "Delete my Chal Rickshaw account".
