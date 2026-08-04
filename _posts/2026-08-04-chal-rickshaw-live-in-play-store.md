@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chal Rickshaw is Live in the Google Play Store"
-date: 2026-07-31
+date: 2026-08-04
 author: Arun Singh
 description: "Chal Rickshaw is now live on Android in the Google Play Store. The gory details of the launch last mile — review demo accounts, trailer and screenshots, privacy declarations, and getting ads and IAPs right in every region."
 image: /assets/img/posts/chal-rickshaw-launch-cover.png
