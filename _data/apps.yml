@@ -52,8 +52,8 @@
   platforms:
     - iOS
     - Android
-  app_store: null   # set on App Store approval — currently in review
-  testflight: https://testflight.apple.com/join/Zgn6udB4
+  app_store: https://apps.apple.com/us/app/chal-rickshaw/id6775334841
+  testflight: null   # public beta superseded by the App Store release 2026-08-05
   play_store: https://play.google.com/store/apps/details?id=studio.maximumimpact.chalrickshaw
   play_beta: null   # superseded by the production listing 2026-08-04
   github: null
