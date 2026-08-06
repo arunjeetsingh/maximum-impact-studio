@@ -17,9 +17,9 @@ constable) and he'll flag you down for his *hafta* — a five-second shakedown
 before you can carry on. Mind the trucks and buses: a head-on with those ends
 the run.
 
-Built by Maximum Impact Studio. **Out now on
-[Google Play](https://play.google.com/store/apps/details?id=studio.maximumimpact.chalrickshaw)** —
-coming soon to the App Store.
+Built by Maximum Impact Studio. **Out now on the
+[App Store](https://apps.apple.com/us/app/chal-rickshaw/id6775334841) and
+[Google Play](https://play.google.com/store/apps/details?id=studio.maximumimpact.chalrickshaw).**
 
 ## Concept videos
 
