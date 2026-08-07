@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chal Rickshaw is Live in the iOS App Store"
-date: 2026-08-06
+date: 2026-08-07
 author: Arun Singh
 description: "Chal Rickshaw is now live on iOS. Seven trips through App Review: a consent form users couldn't act on, a frozen sign-in screen, purchases that required sign-up, and a paywall the reviewer couldn't find — and how each rejection made the game better."
 image: /assets/img/posts/chal-rickshaw-appstore-cover.png
