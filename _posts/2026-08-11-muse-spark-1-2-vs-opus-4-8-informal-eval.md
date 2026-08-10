@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 ---
 
 <figure class="post-figure">
-  <img src="{{ '/assets/img/posts/muse-spark-eval-cover.png' | relative_url }}" alt="Two friendly robots in a head-to-head coding race, each pushing a pull-request card toward a finish line, with a stopwatch and a token counter between them and a neutral robot judge holding a gavel in the background" loading="lazy">
+  <img src="{{ '/assets/img/posts/muse-spark-eval-cover.png' | relative_url }}" alt="A gladiator-style face-off between two armored robots against a futuristic city skyline: a gold warrior labeled OPUS 4.8 wielding a fiery sword on the left, and a blue-and-purple warrior labeled MUSE SPARK 1.2 with a shield and hammer on the right, split by a lightning bolt and a glowing VS" loading="lazy">
 </figure>
 
 TLDR: Muse Spark 1.2 and its coding model launched on Aug 5, 2026. I'd seen early versions back when I was still at Meta, so I was curious how it stacked up against Anthropic's Opus 4.8 — the same model that wrote 95%+ of Chal Rickshaw and TokenCounter. I deliberately skipped Opus 5 and Fable/Mythos because I've only just started using them and don't have strong opinions yet. I gave both models the same tiny task (a one-line fix in Chal Rickshaw), ran each in its own OpenClaw agent behind a Telegram bot so no coding harness could tilt the field, and measured tokens burned and wall-clock time from my prompt to a fix PR. Finally, I had GPT-5.5 running in a Hermes agent judge the two PRs on accuracy, completeness, and code quality. Opus 4.8 won, but there's clear directional improvement possible for Muse Spark, especially running in OpenClaw. Read on for the details.
