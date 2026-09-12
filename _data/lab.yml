@@ -1,0 +1,34 @@
+# Maximum Impact Studio — Lab catalog.
+#
+# The Lab is for open-source tools, agent skills, and experiments — the stuff
+# that lives on GitHub/ClawHub rather than an app store. It's a separate shelf
+# from _data/apps.yml (consumer apps with store buttons) on purpose.
+#
+# Each entry renders a card on /lab/ that links straight out to its repo. To
+# add a project: copy a block, fill it in. No per-project page needed unless a
+# project outgrows a single card.
+#
+# Fields:
+#   slug        - short id (lowercase, no spaces); also the icon filename stem
+#   name        - Display name
+#   tagline     - One-line pitch (card body)
+#   status      - active | seeking-contributors | archived  (controls the badge)
+#   kinds       - list of short tags shown on the card (e.g. Agent Skills, CLI)
+#   github      - source repo URL (this is where the card links)
+#   clawhub     - ClawHub listing URL, or null
+#   license     - SPDX id shown on the card (e.g. MIT), or null
+#   install     - one-line install/bootstrap snippet, or null
+#   icon        - path under assets/img/, or null (falls back to no icon)
+
+- slug: mi-coding-agent
+  name: MI Coding Agent
+  tagline: A portable PR-workflow loop — open a review-ready PR, review it, and address feedback — that runs across OpenClaw, Claude Code, Codex, and Hermes.
+  status: active
+  kinds:
+    - Agent Skills
+    - Open Source
+  github: https://github.com/arunjeetsingh/mi-coding-agent
+  clawhub: https://clawhub.ai/arunjeetsingh
+  license: MIT
+  install: "openclaw skills install @arunjeetsingh/open-pr"
+  icon: null
