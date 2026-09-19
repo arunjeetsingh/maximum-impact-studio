@@ -14,10 +14,11 @@ its own privacy policy** describing exactly what it does:
 
 - [TokenCounter Privacy Policy](/tokencounter/privacy/) — no backend, no
   analytics, no account; your data never leaves your device.
-- [Chal Rickshaw! Privacy Policy](/chal-rickshaw/privacy/) — single-player game;
-  no account and no backend of ours, but it uses standard third-party SDKs for
-  crash reporting, anonymous analytics, and ads (data handled under their
-  policies).
+- [Chal Rickshaw! Privacy Policy](/chal-rickshaw/privacy/) — arcade game with an
+  optional account and a backend of ours, which stores your in-game wallet and
+  purchases and, if you play ranked rounds, a randomly assigned public nickname
+  and your scores. It also uses standard third-party SDKs for crash reporting,
+  anonymous analytics, and ads (data handled under their policies).
 
 This studio site itself is a static website hosted on GitHub Pages. It uses
 **Google Analytics 4** to understand aggregate, anonymous traffic — things like

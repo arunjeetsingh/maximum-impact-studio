@@ -6,11 +6,12 @@ permalink: /chal-rickshaw/privacy/
 
 # Chal Rickshaw! — Privacy Policy
 
-_Last updated: 2026-08-04_
+_Last updated: 2026-09-18_
 
-Chal Rickshaw! is a single-player arcade game from Maximum Impact Studio. This
-policy explains what data the game and the services it uses collect, and how
-that data is handled.
+Chal Rickshaw! is an arcade game from Maximum Impact Studio. You play on your
+own, and if you play a ranked round your score also appears on a leaderboard.
+This policy explains what data the game and the services it uses collect, and
+how that data is handled.
 
 ## TL;DR
 
@@ -20,6 +21,9 @@ that data is handled.
 - We run a small **game backend** that stores your in-game wallet (currency,
   items, purchases) so it isn't lost with your device. It's keyed to a random
   player ID — plus your email only if you link one.
+- If you play a **ranked round**, the backend also stores a **randomly assigned
+  public nickname**, your score, rank and badges. Your nickname and rank can be
+  seen by other players on the leaderboard.
 - **Payments are processed entirely by Apple or Google.** We never see your
   card or bank details.
 - The app embeds two third-party **SDKs**: **anonymous gameplay analytics**
@@ -50,6 +54,19 @@ or reinstall. If you link one, we store that email and use it solely for
 sign-in (a one-time code is emailed to you) and to attach your purchases to a
 durable account. We don't send marketing email. Our backend is hosted on Supabase infrastructure (region:
 Mumbai, India); all traffic is encrypted in transit (HTTPS/TLS).
+
+### Leaderboard (our backend)
+
+If you play a ranked round we store a randomly assigned public nickname, your
+cumulative in-game fare, your rank and any badges you have earned, linked to
+your account. Your nickname and rank may be shown to other players.
+
+The nickname is **assigned by us from a fixed list** — you cannot choose one,
+type one, or upload anything. It is not your real name and it is not derived
+from your email or your device. Rounds played with power-ups are ranked in the
+same way as any other round.
+
+Deleting your account removes all of it (see **Your choices & rights** below).
 
 ### Purchases (Apple App Store / Google Play)
 
@@ -103,7 +120,9 @@ with those platforms — under their policies, not ours.
 
 ## What we do NOT collect
 
-- No name, phone number, contacts, photos, or precise location.
+- No real name, phone number, contacts, photos, or precise location. The
+  leaderboard nickname is randomly assigned by us from a fixed list — you
+  cannot choose or type it, and it is not your real name.
 - No payment card or bank details (Apple/Google handle all payments).
 - No cross-app tracking profile; we never request Apple's ATT permission.
 
@@ -117,11 +136,13 @@ with those platforms — under their policies, not ours.
   via the in-game consent form.
 - **Delete your account & data** — if you've linked an email, delete your
   account directly **in the app**: ACCOUNT → sign in → "Delete account" →
-  DELETE FOREVER. This permanently removes your account, wallet, and purchase
-  records from our servers immediately. You can also email us at the address
+  DELETE FOREVER. This permanently removes your account, wallet, purchase
+  records, **and your leaderboard nickname, scores, ranks and badges** from our
+  servers immediately. You can also email us at the address
   below instead; if you do, write from your linked address (so we can verify it's you) and we
-  will delete your account, wallet, and purchase records (except records we
-  must keep for legal/accounting reasons, e.g. of refunds). If you have **not**
+  will delete your account, wallet, purchase records, **and your leaderboard
+  nickname, scores, ranks and badges** (except records we must keep for
+  legal/accounting reasons, e.g. of refunds). If you have **not**
   linked an email, the wallet on our server is identified only by a random ID
   and holds **no personal information** (just game values); contact us and we
   will work with you to locate and delete it, or simply uninstall — an unlinked
