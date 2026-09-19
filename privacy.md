@@ -16,8 +16,8 @@ its own privacy policy** describing exactly what it does:
   analytics, no account; your data never leaves your device.
 - [Chal Rickshaw! Privacy Policy](/chal-rickshaw/privacy/) — arcade game with an
   optional account and a backend of ours, which stores your in-game wallet and
-  purchases and, if you play ranked rounds, a public nickname you pick from names
-  it generates, plus your scores. It also uses standard third-party SDKs for crash reporting,
+  purchases and, if you play ranked rounds, a public nickname it assigns you (which
+  you can later swap for another it generates), plus your scores. It also uses standard third-party SDKs for crash reporting,
   anonymous analytics, and ads (data handled under their policies).
 
 This studio site itself is a static website hosted on GitHub Pages. It uses

@@ -22,9 +22,10 @@ how that data is handled.
   items, purchases) so it isn't lost with your device. It's keyed to a random
   player ID — plus your email only if you link one.
 - If you play a **ranked round**, the backend also stores your **public
-  nickname** — chosen by you from names we generate, never typed in — along with
-  your score, rank and badges. Your nickname and rank can be seen by other
-  players on the leaderboard.
+  nickname** — we assign the first one, you can later swap it for another we
+  generate, and you can never type one in — along with your score, rank and
+  badges. Your nickname and rank can be seen by other players on the
+  leaderboard.
 - **Payments are processed entirely by Apple or Google.** We never see your
   card or bank details.
 - The app embeds two third-party **SDKs**: **anonymous gameplay analytics**
@@ -62,9 +63,11 @@ If you play a ranked round we store your public nickname, your cumulative
 in-game fare, your rank and any badges you have earned, linked to your account.
 Your nickname and rank may be shown to other players.
 
-**You pick the nickname from options we generate.** The game shows you a few
-names our server has made up, you choose one, and you can ask to see more. You
-cannot type your own or upload anything, so it is never your real name and it is
+**We give you the first one; after that you can change it.** On your first ranked
+round our server assigns a nickname automatically, so the leaderboard can show you
+straight away rather than waiting on a choice. From then on the game offers you
+names our server has generated — you pick one, and you can ask to see more. You
+can never type your own or upload anything, so it is never your real name and
 never derived from your email or your device. Rounds played with power-ups are
 ranked in the same way as any other round.
 
@@ -122,9 +125,10 @@ with those platforms — under their policies, not ours.
 
 ## What we do NOT collect
 
-- No real name, phone number, contacts, photos, or precise location. The
-  leaderboard nickname is one you pick from names our server generates — you
-  cannot type your own or upload one, so it is not your real name.
+- No real name, phone number, contacts, photos, or precise location. Your first
+  leaderboard nickname is assigned by our server, and any later one is picked
+  from names it generates — you can never type your own or upload one, so it is
+  not your real name.
 - No payment card or bank details (Apple/Google handle all payments).
 - No cross-app tracking profile; we never request Apple's ATT permission.
 
