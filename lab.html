@@ -1,0 +1,27 @@
+---
+layout: base
+title: Lab
+permalink: /lab/
+body_class: wide
+description: Open-source tools, agent skills, and experiments from Maximum Impact Studio.
+---
+<section class="studio-hero">
+  <h1>Lab</h1>
+  <p class="lead">Open-source tools, agent skills, and experiments. The stuff that lives on GitHub, not an app store.</p>
+</section>
+
+<section id="lab" class="app-grid">
+  {% for project in site.data.lab %}
+  <a class="app-card" href="{{ project.github }}" rel="noopener">
+    {% if project.icon %}<img class="app-card-icon" src="{{ project.icon | relative_url }}" alt="{{ project.name }} icon" width="72" height="72">{% endif %}
+    <div class="app-card-body">
+      <h2>{{ project.name }}</h2>
+      <p>{{ project.tagline }}</p>
+      {% if project.install %}<p class="lab-install"><code>{{ project.install }}</code></p>{% endif %}
+      <span class="card-status status-{{ project.status }}">
+        {% if project.status == 'active' %}Active{% elsif project.status == 'seeking-contributors' %}Seeking contributors{% else %}Archived{% endif %}{% if project.license %} &middot; {{ project.license }}{% endif %}{% for kind in project.kinds %} &middot; {{ kind }}{% endfor %}
+      </span>
+    </div>
+  </a>
+  {% endfor %}
+</section>
