@@ -21,9 +21,10 @@ how that data is handled.
 - We run a small **game backend** that stores your in-game wallet (currency,
   items, purchases) so it isn't lost with your device. It's keyed to a random
   player ID — plus your email only if you link one.
-- If you play a **ranked round**, the backend also stores a **randomly assigned
-  public nickname**, your score, rank and badges. Your nickname and rank can be
-  seen by other players on the leaderboard.
+- If you play a **ranked round**, the backend also stores your **public
+  nickname** — chosen by you from names we generate, never typed in — along with
+  your score, rank and badges. Your nickname and rank can be seen by other
+  players on the leaderboard.
 - **Payments are processed entirely by Apple or Google.** We never see your
   card or bank details.
 - The app embeds two third-party **SDKs**: **anonymous gameplay analytics**
@@ -57,14 +58,15 @@ Mumbai, India); all traffic is encrypted in transit (HTTPS/TLS).
 
 ### Leaderboard (our backend)
 
-If you play a ranked round we store a randomly assigned public nickname, your
-cumulative in-game fare, your rank and any badges you have earned, linked to
-your account. Your nickname and rank may be shown to other players.
+If you play a ranked round we store your public nickname, your cumulative
+in-game fare, your rank and any badges you have earned, linked to your account.
+Your nickname and rank may be shown to other players.
 
-The nickname is **assigned by us from a fixed list** — you cannot choose one,
-type one, or upload anything. It is not your real name and it is not derived
-from your email or your device. Rounds played with power-ups are ranked in the
-same way as any other round.
+**You pick the nickname from options we generate.** The game shows you a few
+names our server has made up, you choose one, and you can ask to see more. You
+cannot type your own or upload anything, so it is never your real name and it is
+never derived from your email or your device. Rounds played with power-ups are
+ranked in the same way as any other round.
 
 Deleting your account removes all of it (see **Your choices & rights** below).
 
@@ -121,8 +123,8 @@ with those platforms — under their policies, not ours.
 ## What we do NOT collect
 
 - No real name, phone number, contacts, photos, or precise location. The
-  leaderboard nickname is randomly assigned by us from a fixed list — you
-  cannot choose or type it, and it is not your real name.
+  leaderboard nickname is one you pick from names our server generates — you
+  cannot type your own or upload one, so it is not your real name.
 - No payment card or bank details (Apple/Google handle all payments).
 - No cross-app tracking profile; we never request Apple's ATT permission.
 
