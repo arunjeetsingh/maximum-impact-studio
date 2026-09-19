@@ -6,11 +6,12 @@ permalink: /chal-rickshaw/privacy/
 
 # Chal Rickshaw! — Privacy Policy
 
-_Last updated: 2026-08-04_
+_Last updated: 2026-09-18_
 
-Chal Rickshaw! is a single-player arcade game from Maximum Impact Studio. This
-policy explains what data the game and the services it uses collect, and how
-that data is handled.
+Chal Rickshaw! is an arcade game from Maximum Impact Studio. You play on your
+own, and if you play a ranked round your score also appears on a leaderboard.
+This policy explains what data the game and the services it uses collect, and
+how that data is handled.
 
 ## TL;DR
 
@@ -20,6 +21,11 @@ that data is handled.
 - We run a small **game backend** that stores your in-game wallet (currency,
   items, purchases) so it isn't lost with your device. It's keyed to a random
   player ID — plus your email only if you link one.
+- If you play a **ranked round**, the backend also stores your **public
+  nickname** — we assign the first one, you can later swap it for another we
+  generate, and you can never type one in — along with your score, rank and
+  badges. Your nickname and rank can be seen by other players on the
+  leaderboard.
 - **Payments are processed entirely by Apple or Google.** We never see your
   card or bank details.
 - The app embeds two third-party **SDKs**: **anonymous gameplay analytics**
@@ -50,6 +56,22 @@ or reinstall. If you link one, we store that email and use it solely for
 sign-in (a one-time code is emailed to you) and to attach your purchases to a
 durable account. We don't send marketing email. Our backend is hosted on Supabase infrastructure (region:
 Mumbai, India); all traffic is encrypted in transit (HTTPS/TLS).
+
+### Leaderboard (our backend)
+
+If you play a ranked round we store your public nickname, your cumulative
+in-game fare, your rank and any badges you have earned, linked to your account.
+Your nickname and rank may be shown to other players.
+
+**We give you the first one; after that you can change it.** On your first ranked
+round our server assigns a nickname automatically, so the leaderboard can show you
+straight away rather than waiting on a choice. From then on the game offers you
+names our server has generated — you pick one, and you can ask to see more. You
+can never type your own or upload anything, so it is never your real name and
+never derived from your email or your device. Rounds played with power-ups are
+ranked in the same way as any other round.
+
+Deleting your account removes all of it (see **Your choices & rights** below).
 
 ### Purchases (Apple App Store / Google Play)
 
@@ -103,7 +125,10 @@ with those platforms — under their policies, not ours.
 
 ## What we do NOT collect
 
-- No name, phone number, contacts, photos, or precise location.
+- No real name, phone number, contacts, photos, or precise location. Your first
+  leaderboard nickname is assigned by our server, and any later one is picked
+  from names it generates — you can never type your own or upload one, so it is
+  not your real name.
 - No payment card or bank details (Apple/Google handle all payments).
 - No cross-app tracking profile; we never request Apple's ATT permission.
 
@@ -117,11 +142,13 @@ with those platforms — under their policies, not ours.
   via the in-game consent form.
 - **Delete your account & data** — if you've linked an email, delete your
   account directly **in the app**: ACCOUNT → sign in → "Delete account" →
-  DELETE FOREVER. This permanently removes your account, wallet, and purchase
-  records from our servers immediately. You can also email us at the address
+  DELETE FOREVER. This permanently removes your account, wallet, purchase
+  records, **and your leaderboard nickname, scores, ranks and badges** from our
+  servers immediately. You can also email us at the address
   below instead; if you do, write from your linked address (so we can verify it's you) and we
-  will delete your account, wallet, and purchase records (except records we
-  must keep for legal/accounting reasons, e.g. of refunds). If you have **not**
+  will delete your account, wallet, purchase records, **and your leaderboard
+  nickname, scores, ranks and badges** (except records we must keep for
+  legal/accounting reasons, e.g. of refunds). If you have **not**
   linked an email, the wallet on our server is identified only by a random ID
   and holds **no personal information** (just game values); contact us and we
   will work with you to locate and delete it, or simply uninstall — an unlinked
